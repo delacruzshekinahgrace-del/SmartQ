@@ -1,0 +1,3 @@
+ultralytics
+ncnn
+opencv-python

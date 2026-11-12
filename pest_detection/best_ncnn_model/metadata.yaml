@@ -1,0 +1,24 @@
+description: Ultralytics best model trained on Maize-Pest-1\data.yaml
+author: Ultralytics
+date: '2026-11-11T23:10:32.820347+08:00'
+version: 8.4.116
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 320
+- 320
+names:
+  0: Fall army worm
+  1: Field Rat
+  2: Northern corn rootworm
+  3: Southern corn rootworm
+  4: Western corn rootworm
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false
